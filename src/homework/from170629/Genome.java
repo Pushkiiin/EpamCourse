@@ -6,6 +6,7 @@ package homework.from170629;
 
 public class Genome {
 
+
     public static final int DATA_SIZE = 30;
 
     public static void main(String[] args) {
