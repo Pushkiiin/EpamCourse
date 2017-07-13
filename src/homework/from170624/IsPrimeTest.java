@@ -1,4 +1,4 @@
-package homework.firstomework;
+package homework.from170624;
 
 public class IsPrimeTest {
     public static void main(String[] args) {

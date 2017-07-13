@@ -1,4 +1,4 @@
-package homework.firstomework;
+package homework.from170624;
 
 public class HWMethods {
     //sign(int a) - высисление знака числа: -1 если отрицательно, 1 если положительное, 0 если 0

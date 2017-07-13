@@ -1,4 +1,4 @@
-package homework.firstomework;
+package homework.from170624;
 
 public class ModTest {
     public static void main(String[] args) {
