@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class DataGen {
 
-    static final byte[]  ALPHABET = {'A', 'C', 'G', 'T'};
+    private static final byte[]  ALPHABET = {'A', 'C', 'G', 'T'};
 
     public static byte[] generate(int size){
         byte data[] = new byte[size];
