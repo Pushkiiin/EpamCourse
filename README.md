@@ -1,6 +1,6 @@
 # EpamCourse
-Epam HWs and my git&amp;gh babysteps
+Epam homeworks and my git&amp;gh babysteps
 
 Any kind of feedback is welcome, especially for following tasks:
-1) from170701 -> HashMapGenome
-2) from170704 -> RadixSort
+1) src/homework/from170701/HashMapGenome
+2) src/homework/from170704/RadixSort
