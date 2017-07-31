@@ -1,4 +1,4 @@
-package homework.from170701;
+package homework.from170701.genome;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package homework.from170701;
+package homework.from170701.matrix;
 
 import java.util.Random;
 

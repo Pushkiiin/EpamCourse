@@ -1,4 +1,4 @@
-package homework.from170704;
+package homework.from170704.stringarray;
 
 import mytestframework.Asserts;
 
