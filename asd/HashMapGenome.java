@@ -2,7 +2,7 @@ package homework.from170701.genome;
 
 import java.util.HashMap;
 
-public class HashMapGenome {
+public class HashMapGenome {//asd
 
     public static int countDuplicates(byte[] data, int wordLen) {
         HashMap<String, Integer> map = new HashMap<>();
