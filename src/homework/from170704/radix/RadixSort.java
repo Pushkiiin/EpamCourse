@@ -4,10 +4,9 @@ import java.util.Random;
 
 public class RadixSort {
     private static final int RADIX = 10;        //range of one digit values
-    private static final int VAL_RANGE = 100;   //range of number values in array
 
-    public static void radixSort(int[] arr) {
-        for (int digit = 1; digit < VAL_RANGE; digit *= RADIX) {
+    public static void radixSort(int[] arr, int valRange) {
+        for (int digit = 1; digit < valRange; digit *= RADIX) {
             countSort(arr, digit);
         }
     }
