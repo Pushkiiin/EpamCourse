@@ -1,57 +1,32 @@
 package homework.from170701.genome;
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class HashMapGenome {
 
-    private static int DATA_SIZE = 20;
-    private static int WORD_LEN = 3;
-
-    public static void main(String[] args) {
-        byte[] data = DataGen.generate(DATA_SIZE);
-        print(data);
-
-        System.out.println(countDuplicates(data, WORD_LEN));
-
-    }
-
-    private static int countDuplicates(byte[] data, int wordLen) {
+    public static int countDuplicates(byte[] data, int wordLen) {
         HashMap<String, Integer> map = new HashMap<>();
-        String currentWord;
-        int counter = 0;
+        StringBuilder sb = new StringBuilder();
+        String word = null;
+        int result = 0;
 
-        for (int i = 0; i < DATA_SIZE - WORD_LEN + 1; i++) {
-            currentWord = toString(Arrays.copyOfRange(data, i, i + WORD_LEN));
-            if (!map.containsKey(currentWord)) {
-                map.put(currentWord, 0);
+        for (int i = 0; i < data.length - wordLen + 1; i++) {
+            for (int j = 0; j < wordLen; j++) {
+                sb.append((char)data[i + j]);
+            }
+            word = sb.toString();
+            sb.delete(0, sb.capacity());
+
+            if (!map.containsKey(word)) {
+                map.put(word, 0);
             } else {
-                map.put(currentWord, map.get(currentWord) + 1);
-                System.out.print(i + " ");        //duplicates' positions print
+                map.put(word, map.get(word) + 1);
             }
         }
-        System.out.println();
 
         for (HashMap.Entry<String, Integer> entry : map.entrySet()) {
-            counter += entry.getValue();
+            result += entry.getValue();
         }
-        return counter;
-    }
-
-    private static void print(byte[] arr) {
-        for (byte b : arr) {
-            System.out.print((char) b);
-        }
-        System.out.println();
-    }
-
-    private static String toString(byte[] arr) {
-        String result = "";
-
-        for (byte b : arr) {
-            result += (char) b;
-        }
-
         return result;
     }
 }
