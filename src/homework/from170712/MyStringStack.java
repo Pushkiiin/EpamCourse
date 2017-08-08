@@ -19,4 +19,8 @@ public class MyStringStack {
     public int size() {
         return size;
     }
+
+    public String pop() {
+        return elements[size - 1];
+    }
 }
