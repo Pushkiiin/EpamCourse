@@ -1,7 +1,7 @@
 package homework.from170712;
 
 public class MyStringStack {
-    private static final int CAPACITY = 4;
+    private static final int CAPACITY = 4;  //convenient value for testing
     private final String[] elements = new String[CAPACITY];
     private int size = 0;
 

@@ -23,6 +23,6 @@ public class StackTest {
 
 
         MyStringStack emptyStack = new MyStringStack();
-//        System.out.println(Asserts.assertEquals(emptyStack.peek(), null));    this case ca not be handled properly with mytestframework
+//        System.out.println(Asserts.assertEquals(emptyStack.peek(), null));    this case can not be properly described with mytestframework, but we handled it
     }
 }
