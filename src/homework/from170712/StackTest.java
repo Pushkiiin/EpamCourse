@@ -14,6 +14,7 @@ public class StackTest {
         stack.push("wsx");
         System.out.println(Asserts.assertEquals(stack.peek(), "qaz"));
         System.out.println(Asserts.assertEquals(stack.size(), 4));
+        System.out.println(Asserts.assertEquals(stack.pop(), "qaz"));
 
 
         MyStringStack emptyStack = new MyStringStack();
