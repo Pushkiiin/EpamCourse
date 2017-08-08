@@ -15,4 +15,8 @@ public class MyStringStack {
     public String peek() {
         return size == 0 ? null : elements[size - 1];
     }
+
+    public int size() {
+        return size;
+    }
 }
