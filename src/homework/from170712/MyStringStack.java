@@ -5,7 +5,10 @@ public class MyStringStack {
     private final String[] elements = new String[CAPACITY];
     private int size = 0;
 
-    public void add(String str) {
+    public void push(String str) {
+        if(size >= CAPACITY){
+            return;
+        }
         elements[size++] = str;
     }
 
