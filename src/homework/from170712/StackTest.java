@@ -8,6 +8,6 @@ public class StackTest {
         stack.add("qwe");
         stack.add("asd");
         stack.add("zxc");
-        Asserts.assertEquals(stack.peek(), "zxc");
+        System.out.println(Asserts.assertEquals(stack.peek(), "zxc"));
     }
 }
