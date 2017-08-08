@@ -9,5 +9,7 @@ public class StackTest {
         stack.add("asd");
         stack.add("zxc");
         System.out.println(Asserts.assertEquals(stack.peek(), "zxc"));
+        stack.add("qaz");
+        System.out.println(Asserts.assertEquals(stack.peek(), "qaz"));
     }
 }
