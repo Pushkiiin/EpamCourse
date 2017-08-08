@@ -13,5 +13,8 @@ public class StackTest {
         System.out.println(Asserts.assertEquals(stack.peek(), "qaz"));
         stack.push("wsx");
         System.out.println(Asserts.assertEquals(stack.peek(), "qaz"));
+
+        MyStringStack emptyStack = new MyStringStack();
+        System.out.println(Asserts.assertEquals(emptyStack.peek(), null));
     }
 }
