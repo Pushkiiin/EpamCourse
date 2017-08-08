@@ -21,6 +21,8 @@ public class MyStringStack {
     }
 
     public String pop() {
-        return elements[size - 1];
+        String tmp = elements[--size];
+        elements[size] = null;
+        return tmp;
     }
 }
