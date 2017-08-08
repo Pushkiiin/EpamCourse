@@ -16,6 +16,10 @@ public class StackTest {
         System.out.println(Asserts.assertEquals(stack.size(), 4));
         System.out.println(Asserts.assertEquals(stack.pop(), "qaz"));
         System.out.println(Asserts.assertEquals(stack.size(), 3));
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
 
 
         MyStringStack emptyStack = new MyStringStack();
