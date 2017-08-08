@@ -13,6 +13,6 @@ public class MyStringStack {
     }
 
     public String peek() {
-        return elements[size - 1];
+        return size == 0 ? null : elements[size - 1];
     }
 }
