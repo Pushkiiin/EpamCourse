@@ -1,4 +1,4 @@
-package hackerrank30days.day9;
+package hackerrank30days.day09;
 
 import java.util.Scanner;
 
