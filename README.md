@@ -1,6 +1,7 @@
 # EpamCourse
 Epam homeworks and my git&amp;gh babysteps
 
-Any kind of feedback is welcome, especially for following tasks:
-1) src/homework/from170701/genome
-2) src/homework/from170704/radix
+1) Regular homeworks in "src\homework" package
+2) Hackerrank tasks in "src\hackerrank30days" package
+3) Coding bat shared with Zaal
+
