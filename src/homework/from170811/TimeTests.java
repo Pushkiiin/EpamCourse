@@ -2,6 +2,7 @@ package homework.from170811;
 
 import java.util.*;
 
+//do time tests for arraylist, linkedlist and treeset: add, sort, binary search
 public class TimeTests {
     private static final int SEED = 1_000_000;
     private static final int SIZE = 1_000_000;
